@@ -1,0 +1,163 @@
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
+<style>
+    .label {
+        color:gray;
+        font-family: Helvetica;
+        position: relative;
+        margin-bottom: 0.3cm;
+        font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+    }
+    #legend {
+    	position: relative;
+    	bottom: 230px;
+        left: 30px;
+        width:100px;
+        height:160px;
+    }
+    .box1 {
+    	font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+        color: gray;
+        background-color: rgba(255, 110, 156, 0.7);
+        width: 20px;
+        height:20px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+    }
+    .box2 {
+    	font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+        color: gray;
+        background-color: rgba(92, 110, 156, 0.7);
+        width: 20px;
+        height:20px;
+        border-radius: 7px;
+    	margin-bottom: 5px;
+    }
+    .box3 {
+    	font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+        color: gray;
+        background-color: rgba(20, 110, 156, 0.7);
+        width: 20px;
+        height:20px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+    }
+    .box4 {
+    	font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+        color: gray;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 20px;
+        height:20px;
+        border-radius: 7px;
+        margin-bottom: 5px;
+    }
+    #instruction {
+		position: relative;
+		text-align: center;
+		font-family: Book Antiqua, Georgia, serif;
+    	color: #0489B1;	
+    }
+    #logo {
+        position: absolute;
+        height: 45px;
+        width: auto;
+        /*padding: 10px 0px 0px 10px;*/
+    }
+    .leaflet-container{background-color:#c5e8ff;}
+    .info {
+    	text-align: center;
+    	font-size: 20px;
+    	font-family: Book Antiqua, Georgia, serif;
+    	color: #0489B1;
+    /*	padding: 10px 10px 10px 10px;*/
+    }
+    .input{
+        text-align: center;
+        color: gray;
+        padding: 7px 0 10px 0;
+        font-family: 'Open Sans';
+    }
+	.label {
+		color:gray;
+		font-family: Helvetica;
+		position: relative;	
+		margin-bottom: 0.3cm;
+	}
+
+	.info_panel {
+	    position: relative;
+	    top: -585px;
+	    right: -1100px;
+	    width: 250px;
+	    height: 400px;
+	    border: 1px solid #D8D8D8;
+	    padding: 10px 10px 10px 10px;
+	    overflow-y: scroll;
+	    border-radius: 10px; 
+	}
+	#lan {
+		color:gray;
+		font-size: 20px;
+	}
+    #display1 {
+        text-align: center;
+    }
+    #display2 {
+        text-align: center;
+        color: #FA5858;
+        font-size: 15px;
+    }
+/*        #header {
+        background-color: #E0ECF8;
+        padding: 10px 0px 10px 0px;
+    }*/
+    #colorByNumber {
+		text-align: center;
+    }
+    #showButton {
+    	text-decoration: none;
+		text-transform: uppercase;
+		color: grey;
+		font-family: 'Open Sans';
+		font-weight: lighter;
+		size: 14px;
+		letter-spacing: 1px;
+/*			display: inline-block;
+		padding: 8px 8px;*/
+		position: relative;
+    }
+    #showButton:hover {
+    	color:#fff;
+			background:#7094db;
+    } 
+    #magicButton {
+    	text-decoration: none;
+		text-transform: uppercase;
+		color: grey;
+		letter-spacing: 1px;
+		family: 'Open Sans';
+		weight: lighter;
+		size: 14px;
+		/*display: inline-block;*/
+		/*padding: 8px 8px;*/
+		position: relative;
+    }
+    #magicButton:hover {
+    	color:#fff;
+			background:#7094db;
+    }
+</style>
